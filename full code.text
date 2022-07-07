@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>STELLAR</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <style>
+        html {
+            min-height: 100vh;
+        }
+
+        body {
+            color: #F7F6F2;
+            background-image: linear-gradient(#183E58, #328CAB);
+            /* background gradient color of the page */
+            background-repeat: no-repeat;
+        }
+
+        #balance {
+            width: 550px;
+            margin: auto;
+        }
+
+        #topbar {
+            background-color: #F6F5F1;
+            color: #003060;
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem 5px;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+        }
+
+        .text {
+            margin-top: 18px;
+        }
+
+        .current-balance {
+            width: 160px;
+            padding: 5px 8px;
+            background-image: linear-gradient(#0D426B, #0D426B);
+            border-radius: 5px;
+            background-repeat: no-repeat;
+        }
+
+        .pay-methods {
+            width: 230px;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin: auto;
+            background-color: #002F5F;
+            color: #F7F6F2;
+            font-size: smaller;
+        }
+
+        .payment-image {
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        .contact-info {
+            color: #003060;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="balance">
+        <div class="row bg-primary" id="topbar">
+            <img src="./logo.jpg" alt="logo" width="150px">
+            <h6 class="text">ONLINE BIOMETRIC ATTENDANCE SYSTEM & MICRO PAYROLL</h6>
+        </div>
+        <div class="text-center">
+            <h3>DEAR CONCERN,<br>Greetings from STELLAR</h3>
+            <p>You have unpaid bills in your account.<br>Please pay bills to continue to the main site!</p>
+        </div>
+
+        <p class="current-balance border-radius-large">CURRENT BALANCE:</p>
+
+        <div>
+            <p>Attendance Software:</p>
+            <p>GPS:</p>
+            <p>Payroll:</p>
+            <p>To see your full payment history, Click Here.</p>
+        </div>
+        <div id="payment">
+            <p class="pay-methods text-center">Payment Methods(Send Money)</p>
+            <img src="./bkash_nagad.png" alt="bkash nagad" width="100%" class="payment-image">
+        </div>
+        <p class="contact-info text-center">Please contact support for further assistance <br>+8801810030760,
+            +8801810030761</p>
+    </div>
+</body>
+
+</html>
